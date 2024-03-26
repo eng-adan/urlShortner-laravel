@@ -1,0 +1,326 @@
+#box {
+    width: auto;
+    padding: 20px;
+}
+#row {
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding-left: 5%;
+}
+
+#column {
+    text-align: center;
+    width: 350px;
+    padding: 20px;
+    background: linear-gradient(to right, #fff 50%, #f5f5f5 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: background-position 0.5s; /* Adding transition for background-position */
+}
+
+#column:hover {
+    background-position: left bottom;
+    border-radius: 20px;
+}
+
+.icon img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+h3.aligncenter {
+    margin-bottom: 10px;
+    color: #45a049;
+    font-family: cursive;
+}
+
+p.aligncenter {
+    font-size: 14px;
+    color: #000;
+    padding: 0 20px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333333;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4caf50;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+/* Tab styles */
+.tab {
+    margin-bottom: 20px;
+}
+
+.tab button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f2f2f2;
+    color: #333333;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.tab button.active {
+    background-color: #80db84;
+    cursor: not-allowed;
+}
+
+.container {
+    max-width: 650px;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #008cba;
+}
+
+.input-group {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+}
+.input-group input {
+    border: 1px solid #cccccc;
+    padding: 12px;
+    width: 100%;
+    border-radius: 4px;
+}
+
+input[type="text"] {
+    padding: 12px 20px;
+    width: calc(100% - 40px);
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.copy-button {
+    padding: 13px 0px;
+    width: 220px;
+    background-color: #008cba;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.copy-button:hover {
+    background-color: #007a99;
+}
+.tablinks {
+    background-color: green;
+    border-radius: 5px;
+    padding: 10px 24px;
+    cursor: pointer;
+    color: white;
+    border: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #ffffff; /* Change background color as needed */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+}
+
+/* Logo styling */
+.logo {
+    font-size: 24px; /* Adjust font size as needed */
+    font-weight: bold; /* Make the logo bold */
+    color: #333333; /* Set logo color */
+}
+
+/* Button container */
+.buttons {
+    display: flex;
+    gap: 10px; /* Add space between buttons */
+}
+
+/* Button styling */
+.btn {
+    padding: 10px 20px; /* Add padding to buttons */
+    border: none;
+    border-radius: 4px;
+    background-color: #4caf50; /* Green color for buttons */
+    color: white; /* White text color */
+    font-size: 16px; /* Adjust font size as needed */
+    cursor: pointer; /* Show pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+/* Button hover effect */
+.btn:hover {
+    background-color: #45a049; /* Darker shade of green on hover */
+}
+
+/* Show tab content when active */
+.active {
+    background-color: #80db84 !important;
+    cursor: not-allowed !important;
+}
+
+.container {
+    max-width: 650px;
+    margin-top: 20px;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+.containers {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.main_heading {
+    max-width: 650px;
+    margin-top: 20px;
+    padding: 30px;
+    text-align: center;
+}
+.title {
+    color: black;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+}
+.url_shortner {
+    color: #008cba;
+}
+
+.pdf_converter {
+    color: #45a049;
+}
+h1 {
+    margin-bottom: 20px;
+    color: #008cba;
+}
+.h1 {
+    color: #45a049;
+}
+
+.input-group {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: auto;
+}
+
+input[type="text"] {
+    padding: 12px 20px;
+    width: calc(100% - 40px);
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 13px 0px;
+    width: 220px;
+    height: auto;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    border-color: #4caf50;
+}
+
+.copy-button {
+    background-color: #008cba;
+}
+
+.copy-button:hover {
+    background-color: #007a99;
+}
+body {
+    margin: 0px;
+}
+footer {
+    background: #333;
+    color: white;
+    font-size: 22px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: 600;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 120px;
+}
+.custom_class {
+    text-align: left !important;
+    box-shadow: none !important;
+}
+.h1 {
+    animation: blink 1s infinite alternate; /* Applying the blink animation */
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1; /* Fully visible */
+    }
+    100% {
+        opacity: 0; /* Fully invisible */
+    }
+}
